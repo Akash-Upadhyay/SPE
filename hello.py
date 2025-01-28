@@ -1,2 +1,2 @@
 # Print "Hello, World!" to the console
-print("Hello, World! Git Webhook")
+print("Hello, World! Git Wbhook")
