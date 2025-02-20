@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "your-dockerhub-username/calculator"
+        DOCKER_IMAGE = "MT2024013/calculator"
     }
 
     stages {
