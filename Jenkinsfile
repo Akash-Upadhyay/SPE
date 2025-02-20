@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "MT2024013/calculator"
+        DOCKER_IMAGE = "mt2024013/calculator"
     }
 
     stages {
