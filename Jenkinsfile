@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/yourusername/Calculator-Project.git'
+                git branch: 'main', url: 'https://github.com/Akash-Upadhyay/SPE.git'
             }
         }
 
