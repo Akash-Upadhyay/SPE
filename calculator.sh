@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Enter first number:"
 read a
-echo "Enter second number:"
+echo "Enter seond number:"
 read b
 echo "Select operation (+, -, *, /):"
 read op
