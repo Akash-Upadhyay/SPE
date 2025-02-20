@@ -10,5 +10,5 @@
       command: docker rm -f calculator_container
       ignore_errors: yes
 
-    - name: Run the Calculator Container
-      command: docker run -d --name calculator_container mt2024013/calculator
+    - name: Run the Calculator Container in Interactive Mode
+      command: docker run -dit --name calculator_container mt2024013/calculator
