@@ -1,0 +1,13 @@
+- name: Deploy Calculator Container
+  hosts: servers
+  become: true
+  tasks:
+    - name: Pull Docker Image
+      command: docker pull your-dockerhub-username/calculator
+
+    - name: Stop existing container
+      command: docker rm -f calculator_container
+      ignore_errors: yes
+
+    - name: Run the Calculator Container
+      command: docker run -d --name calculator_container your-dockerhub-username/calculator
